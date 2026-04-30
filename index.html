@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="name" content="OCBO e-Sign Server" />
+    <meta name="description" content="Backend application for OCBO e-Sign" />
+    <meta name="developer" content="Patrick Alvin Alcala" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>OCBO e-Sign Server</title>
+    <style>
+      body {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        align-content: center;
+        background-color: #16212c;
+      }
+
+      .logo {
+        width: 200px;
+        height: auto;
+        padding: 2rem 0 0 0;
+      }
+
+      .title {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 20px 0;
+        color: rgba(240, 254, 233, 0.905);
+        font-size: 3.25rem;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .title {
+          font-size: 1.25rem;
+        }
+
+        .logo {
+          width: 100px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <img class="logo" src="/esign.webp" alt="esign logo" />
+    <h1 class="title">OCBO e-Sign Server is running</h1>
+  </body>
+</html>
