@@ -1,0 +1,14 @@
+{
+    "apps" : [{
+      "name"        : "ocbo-server-1",
+      "script"      : "./ocbo-server-1"
+    },
+    {
+      "name"        : "ocbo-server-2",
+      "script"      : "./ocbo-server-2"
+    },
+    {
+      "name"        : "ocbo-server-3",
+      "script"      : "./ocbo-server-3"
+    }]
+}
